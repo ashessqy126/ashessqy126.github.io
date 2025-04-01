@@ -1,30 +1,33 @@
-name: Deploy al-folio
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-
+    branches: [ main ]  # 监视主分支推送（根据实际源码分支名调整）
+permissions:
+  contents: write       # 允许此 workflow 使用GITHUB_TOKEN推送代码
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7  # al-folio推荐版本
-          bundler-cache: true
+          ruby-version: "3.3.5"      # 指定Ruby版本
+          bundler-cache: true       # 缓存 gems 加速构建
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: bundle install
 
-      - name: Build the site
-        run: bundle exec jekyll build
+      - name: Build Jekyll site
+        run: bundle exec jekyll build  # 构建站点，生成 _site 目录
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          folder: "_site"  # 要部署的静态站点目录
+          branch: "gh-pages"  # 部署目标分支
+          clean: true    # 部署前清空旧文件
+          # 注：该Action会使用默认的GITHUB_TOKEN推送，已在permissions中授权
