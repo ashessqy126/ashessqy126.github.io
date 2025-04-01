@@ -12,22 +12,30 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # 安装系统依赖
+      - name: Install apt dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick python3-pip
+          pip3 install --upgrade pip
+          pip3 install jupyter
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"      # 指定Ruby版本
-          bundler-cache: true       # 缓存 gems 加速构建
+          ruby-version: "3.3.5"
+          bundler-cache: true
 
-      - name: Install Dependencies
+      - name: Install Bundler dependencies
         run: bundle install
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build  # 构建站点，生成 _site 目录
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
 
-      - name: Deploy to gh-pages
+      - name: Deploy to GH Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: "_site"  # 要部署的静态站点目录
-          branch: "gh-pages"  # 部署目标分支
+          folder: "_site"
+          branch: "gh-pages"
           clean: true    # 部署前清空旧文件
           # 注：该Action会使用默认的GITHUB_TOKEN推送，已在permissions中授权
