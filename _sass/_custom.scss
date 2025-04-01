@@ -1,0 +1,15 @@
+// body {
+//     font-family: Arial, sans-serif;
+// }
+award { background: none; color: red; font-family: arial, sans-serif;}
+
+paper { background: none; color: green; font-family: arial, sans-serif;}
+
+talk { background: none; color: orange; font-family: arial, sans-serif;}
+
+.announcements {
+    font-family: 'Times New Roman', Times, serif;     // 设置字体为 Times
+    font-size: 15px;                    // 设置字号
+    line-height: 1.6;                   // 设置行高
+    margin-top: 1rem;                   // 增加顶部空隙
+  }
