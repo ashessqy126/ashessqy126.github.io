@@ -29,8 +29,11 @@ ninja.data = [{
           section: "News",},{id: "news-award-i-am-very-pleased-to-be-selected-as-a-recipient-of-internet-society-ndss-fellowship",
           title: '[Award] I am very pleased to be selected as a recipient of Internet...',
           description: "",
-          section: "News",},{id: "news-talk-i-present-our-paper-silence-false-alarms-identifying-anti-reentrancy-patterns-on-ethereum-to-refine-smart-contract-reentrancy-detection-in-the-network-and-distributed-system-security-ndss-symposium-2025",
-          title: '[Talk] I present our paper “Silence False Alarms: Identifying Anti-Reentrancy Patterns on Ethereum...',
+          section: "News",},{id: "news-talk-i-presented-our-paper-silence-false-alarms-identifying-anti-reentrancy-patterns-on-ethereum-to-refine-smart-contract-reentrancy-detection-in-the-network-and-distributed-system-security-ndss-symposium-2025",
+          title: '[Talk] I presented our paper “Silence False Alarms: Identifying Anti-Reentrancy Patterns on Ethereum...',
+          description: "",
+          section: "News",},{id: "news-paper-our-recent-work-in-text-to-image-backdoor-attacks-has-been-accepted-by-the-ieee-international-conference-on-multimedia-amp-amp-expo-icme-2025",
+          title: '[Paper] Our recent work in text-to-image backdoor attacks has been accepted by the...',
           description: "",
           section: "News",},{
         id: 'social-email',
