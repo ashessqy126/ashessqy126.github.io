@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-our-recent-work-in-text-to-image-backdoor-attacks-has-been-accepted-by-the-ieee-international-conference-on-multimedia-amp-amp-expo-icme-2025",
           title: '[Paper] Our recent work in text-to-image backdoor attacks has been accepted by the...',
           description: "",
+          section: "News",},{id: "news-paper-our-recent-work-in-physical-traffic-sign-backdoor-attacks-has-been-accepted-by-the-ieee-international-conference-on-communications-icc-2025",
+          title: '[Paper] Our recent work in physical traffic sign backdoor attacks has been accepted...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
