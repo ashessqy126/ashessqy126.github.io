@@ -41,6 +41,12 @@ ninja.data = [{
           section: "News",},{id: "news-paper-our-recent-work-in-model-eiditing-has-been-accepted-by-the-european-conference-on-artificial-intelligence-ecai-2025",
           title: '[Paper] Our recent work in model eiditing has been accepted by the European...',
           description: "",
+          section: "News",},{id: "news-paper-our-recent-work-on-multilingual-interpretability-has-been-accepted-by-the-association-for-the-advancement-of-artificial-intelligence-aaai-conference-2026",
+          title: '[Paper] Our recent work on multilingual interpretability has been accepted by the Association...',
+          description: "",
+          section: "News",},{id: "news-paper-our-recent-work-on-integrity-verification-for-provenance-based-causality-analysis-has-been-accepted-by-usenix-security-2026",
+          title: '[Paper] Our recent work on integrity verification for provenance-based causality analysis has been...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
