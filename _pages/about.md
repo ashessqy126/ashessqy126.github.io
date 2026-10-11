@@ -26,7 +26,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I received my B.S. degree in Information Security from the University of Electronic Science and Technology of China (UESTC), and my M.S. degree in Computer Science and Technology from [Tsinghua University](https://www.tsinghua.edu.cn/en/). In 2021, I also worked as a research assistant at [George Mason University](https://www.gmu.edu/) (GMU) under the supervision of Prof. [Kun Sun](https://csis.gmu.edu/ksun/). I have received my Ph.D. degree and am currently an Assistant Researcher at the [Institute of Information Engineering](https://www.iie.ac.cn/) (IIE), Chinese Academy of Sciences, where I have been selected for the Young Talent Program.
+I received my B.S. degree in Information Security from the University of Electronic Science and Technology of China (UESTC), and my M.S. degree in Computer Science and Technology from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the supervision of Prof. Qi Li. In 2021, I also worked as a research assistant at [George Mason University](https://www.gmu.edu/) (GMU) under the supervision of Prof. [Kun Sun](https://csis.gmu.edu/ksun/). I have received my Ph.D. degree and am currently an Assistant Researcher at the [Institute of Information Engineering](https://www.iie.ac.cn/) (IIE), Chinese Academy of Sciences, where I have been selected for the Young Talent Program.
 
 My current research interests include:
 
