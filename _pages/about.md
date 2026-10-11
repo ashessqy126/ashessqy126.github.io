@@ -9,7 +9,7 @@ profile:
   image: bio.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Insitute of Information Engineering, Chinese Academy of Sciences</p>
+    <p>Institute of Information Engineering, Chinese Academy of Sciences</p>
     <p>- Email: songqiyang@iie.ac.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -31,6 +31,7 @@ I received my B.S. degree in Information Security from the University of Electro
 My current research interests include:
 
 * Software Security
+* Agent and LLM Security
 * Web3 Security
 * Intrusion Detection Systems
 
