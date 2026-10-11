@@ -15,8 +15,10 @@
   publisher={IEEE},
   doi={10.1109/TCCN.2026.3714063},
   html={https://doi.org/10.1109/TCCN.2026.3714063},
-  abstract={The Model Context Protocol (MCP) enables large language models to access external data and tools, but the growing MCP ecosystem introduces new risks in tool selection. This work introduces MCP Preference Manipulation Attacks, or MPMA, and presents BiasAgent, a systematic study of how agent biases can be exploited to manipulate model preferences among competing MCP servers.},
-  selected={true}
+  abstract={The Model Context Protocol (MCP) connects large language model agents with external tools and applications, but it is vulnerable to preference manipulation attacks. Existing approaches inject manipulative keywords or phrases into tool names or descriptions, making them detectable. BiasAgent instead leverages agent bias to manipulate tool selection without modifying tool descriptions or user inputs. The authors construct a biased dataset that favors a designated tool and train a biased agent using Decoupled Clip and Dynamic Sampling Policy Optimization (DAPO). The resulting agent prefers the attacker-specified tool for relevant tasks while maintaining normal functionality on other tasks, achieving high effectiveness and strong stealthiness across multiple LLM agents and task settings.},
+  pdf={biasagent.pdf},
+  selected={true},
+  preview={biasagent.png}
 }
 
 @inproceedings{bai2026devils,
