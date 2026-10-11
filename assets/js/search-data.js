@@ -47,6 +47,12 @@ ninja.data = [{
           section: "News",},{id: "news-paper-our-recent-work-on-integrity-verification-for-provenance-based-causality-analysis-has-been-accepted-by-usenix-security-2026",
           title: '[Paper] Our recent work on integrity verification for provenance-based causality analysis has been...',
           description: "",
+          section: "News",},{id: "news-paper-our-work-biasagent-exploiting-agent-bias-for-preference-manipulation-attacks-on-model-context-protocol-has-been-published-in-ieee-transactions-on-cognitive-communications-and-networking-tccn-2026",
+          title: '[Paper] Our work, “BiasAgent: Exploiting Agent Bias for Preference Manipulation Attacks on Model...',
+          description: "",
+          section: "News",},{id: "news-paper-our-recent-work-the-devil-s-whisper-to-agents-unveiling-and-formalizing-training-free-backdoor-attacks-across-the-mcp-enabled-agent-execution-lifecycle-has-been-accepted-by-the-annual-computer-security-applications-conference-acsac-2026",
+          title: '[Paper] Our recent work, “The Devil’s Whisper to Agents: Unveiling and Formalizing Training-Free...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
